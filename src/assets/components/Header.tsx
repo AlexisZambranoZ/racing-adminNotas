@@ -6,7 +6,7 @@ export default function Header() {
 
     return (
         <header
-            style={{ backgroundColor: "var(--color2)" }}
+            style={{ backgroundColor: "#1e1e1e" }} 
             className="text-white py-4 shadow-md"
         >
             <div
@@ -18,7 +18,7 @@ export default function Header() {
             >
                 {/* Logo */}
                 <img
-                    src="/src/img/logoRacing2025_03.png"
+                    src="/img/logoRacing2025_03.png"
                     alt="Logo"
                     className="w-28 h-auto"
                 />

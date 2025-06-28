@@ -3,17 +3,6 @@
 
 /* Tus variables de color personalizadas */
 :root {
-  --color1: #000000;
-  --color2: #1e1e1e;
-  --color3: #3b3b3b;
-  --color4: #595959;
-  --color5: #767676;
-  --color6: #bebebe;
-
-
-  background-color: var(--color5);
-
-
   @keyframes fade-in-out {
   0% { opacity: 0; transform: translateY(20px); }
   20% { opacity: 1; transform: translateY(0); }

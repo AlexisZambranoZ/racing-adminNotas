@@ -139,7 +139,7 @@ export default function Formulario() {
         const horaActual = now.toTimeString().slice(0, 5);
 
         const doc = new jsPDF({ unit: "pt", format: "letter" });
-        const imgData = "/src/img/plantilla_notaRacing.png";
+        const imgData = "/img/plantilla_notaRacing.png";
         doc.addImage(imgData, "PNG", 0, 0, 612, 792);
 
         doc.setFontSize(16);
